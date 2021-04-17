@@ -62,7 +62,7 @@ Module.register('MMM-stocks', { /*eslint-disable-line*/
                     changeElement.classList += ' down';
                 }
 
-                var change = Math.abs(changeValue, -2);
+                var change = Math.abs(changeValue, -2).toFixed(2);
 
                 changeElement.innerHTML = ' ' + change;
 
